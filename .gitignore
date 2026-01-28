@@ -1,0 +1,16 @@
+# Virtual Environment
+env_wajah/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS trash
+Thumbs.db
+.DS_Store
+
+.env
