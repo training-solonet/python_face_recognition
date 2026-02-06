@@ -1,4 +1,4 @@
-# Sistem Absensi Wajah Berbasis Library Face Recognition
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c8eb097c-a5d6-4917-be88-6cafc0f10632" /># Sistem Absensi Wajah Berbasis Library Face Recognition
 
 Proyek ini merupakan sebuah backend berbasis library face-recognition dengan FastAPI yang berfungsi untuk pengenalan wajah menggunakan data foto siswa yang disimpan pada API eksternal.
 Aplikasi ini dirancang sebagai bagian dari Sistem Absensi Wajah, di mana pengguna mengirimkan foto melalui endpoint API, lalu sistem akan mencocokkan wajah tersebut dengan dataset wajah yang telah tersimpan di memori server.
@@ -69,7 +69,7 @@ python3-dev
 ```
 
 Windows
-- Visual Studio Build Tools
+- Visual Studio Build Tools dengan Desktop Development for C++
 - CMake
 - Python
 
@@ -98,6 +98,11 @@ source venv/bin/activate
 ```
 
 ### 3️⃣ Install Dependency
+Pastikan versi pip sudah yang terbaru
+```bash
+python.exe -m pip install --upgrade pip
+```
+Lalu instal semua dependency
 ```bash
 pip install -r requirements.txt
 ```
