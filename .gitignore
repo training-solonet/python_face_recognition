@@ -1,5 +1,7 @@
 # Virtual Environment
 env_wajah/
+venv/
+.venv/
 
 # Python cache
 __pycache__/
